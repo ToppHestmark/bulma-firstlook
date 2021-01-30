@@ -1,12 +1,11 @@
 import React from "react";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 const App = () => (
   <>
     <Navbar />
-    <div className="container">
-      <h1>Bla bla bla</h1>
-    </div>
+    <Hero />
   </>
 );
 export default App;

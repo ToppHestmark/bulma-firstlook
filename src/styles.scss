@@ -19,7 +19,12 @@ body::-webkit-scrollbar {
 
 .navbar {
   width: 100%;
+  padding: 0 10vw;
   background-color: #3273dc;
+
+  @media screen and (max-width: 1024px) {
+    padding: 0 0.5rem;
+  }
 
   &__link {
     background-color: inherit;
@@ -31,5 +36,18 @@ body::-webkit-scrollbar {
     background-color: #209cee;
     border: #3273dc;
     color: white;
+  }
+}
+
+.hero {
+  background-color: #b4c6f0 !important;
+
+  .container {
+    max-width: 600px !important;
+
+    h1,
+    p {
+      padding: 10px 0;
+    }
   }
 }
